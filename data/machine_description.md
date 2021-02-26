@@ -1,4 +1,5 @@
 # Machine dataset
+Краткое описание
 ## Ссылка на источник 
 https://archive.ics.uci.edu/ml/datasets/Computer+Hardware
 ## Описание

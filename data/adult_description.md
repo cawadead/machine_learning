@@ -1,4 +1,5 @@
 # Adult dataset
+Краткое описание
 ## Ссылка на источник 
 https://archive.ics.uci.edu/ml/datasets/Adult
 ## Описание
