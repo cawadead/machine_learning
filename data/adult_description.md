@@ -1,27 +1,13 @@
-1. https://archive.ics.uci.edu/ml/datasets/Adult
-2.
-This data was extracted from the census bureau database found at
+# Adult dataset
+## Ссылка на источник 
+https://archive.ics.uci.edu/ml/datasets/Adult
+## Описание
+Эти данные были взяты из базы данных бюро переписи населения от 1994 года:
 http://www.census.gov/ftp/pub/DES/www/welcome.html
-Donor: Ronny Kohavi and Barry Becker,
-       Data Mining and Visualization
-       Silicon Graphics.
-       e-mail: ronnyk@sgi.com for questions.
-Split into train-test using MLC++ GenCVFiles (2/3, 1/3 random).
-48842 instances, mix of continuous and discrete    (train=32561, test=16281)
-45222 if instances with unknown values are removed (train=30162, test=15060)
-Duplicate or conflicting instances : 6
-Class probabilities for adult.all file
-Probability for the label '>50K'  : 23.93% / 24.78% (without unknowns)
-Probability for the label '<=50K' : 76.07% / 75.22% (without unknowns)
-
-Extraction was done by Barry Becker from the 1994 Census database.  A set of
-  reasonably clean records was extracted using the following conditions:
-  ((AAGE>16) && (AGI>100) && (AFNLWGT>1)&& (HRSWK>0))
-
-3. Prediction task is to determine whether a person makes over 50K a year.
+## Суть задачи и целевой признак
+Задача прогноза - определить, зарабатывает ли человек более 50 тысяч в год
 salary: >50K, <=50K
-
-4.
+## Признаки объектов
 age: continuous.
 workclass: Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, Never-worked.
 fnlwgt: continuous.
